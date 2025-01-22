@@ -13,7 +13,7 @@
             Console.WriteLine("After function calll X value : " + x);
 
             Program.Maths(num1, num2, out int sum, out int sub);
-            Console.WriteLine("Sum = : "+ sum + " Sub = : " + sub);
+            Console.WriteLine("Sum of the numbers = : "+ sum + " Sub = : " + sub);
         }
         public static void PassParam(ref int i)
         {
