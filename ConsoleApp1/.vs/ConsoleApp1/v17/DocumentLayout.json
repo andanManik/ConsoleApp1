@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Learning\\ASP.Net\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8390BEC8-4B1C-480D-8FE7-7B8FE9426768}|GC_WeakReference\\GC_WeakReference.csproj|d:\\learning\\asp.net\\consoleapp1\\gc_weakreference\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8390BEC8-4B1C-480D-8FE7-7B8FE9426768}|GC_WeakReference\\GC_WeakReference.csproj|solutionrelative:gc_weakreference\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E438A135-3B09-4D7A-8CBF-B2B8ACA5650C}|GarbageCollector\\GarbageCollector.csproj|d:\\learning\\asp.net\\consoleapp1\\garbagecollector\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E438A135-3B09-4D7A-8CBF-B2B8ACA5650C}|GarbageCollector\\GarbageCollector.csproj|solutionrelative:garbagecollector\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DB5524D-567B-4B78-8DEE-069BAE3C76A2}|ParameterTypes\\ParameterTypes.csproj|d:\\learning\\asp.net\\consoleapp1\\parametertypes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB5524D-567B-4B78-8DEE-069BAE3C76A2}|ParameterTypes\\ParameterTypes.csproj|solutionrelative:parametertypes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learning\\ASP.Net\\ConsoleApp1\\GC_WeakReference\\Program.cs",
+              "RelativeDocumentMoniker": "GC_WeakReference\\Program.cs",
+              "ToolTip": "D:\\Learning\\ASP.Net\\ConsoleApp1\\GC_WeakReference\\Program.cs",
+              "RelativeToolTip": "GC_WeakReference\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T00:05:36.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learning\\ASP.Net\\ConsoleApp1\\GarbageCollector\\Program.cs",
+              "RelativeDocumentMoniker": "GarbageCollector\\Program.cs",
+              "ToolTip": "D:\\Learning\\ASP.Net\\ConsoleApp1\\GarbageCollector\\Program.cs",
+              "RelativeToolTip": "GarbageCollector\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:51:42.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learning\\ASP.Net\\ConsoleApp1\\ParameterTypes\\Program.cs",
+              "RelativeDocumentMoniker": "ParameterTypes\\Program.cs",
+              "ToolTip": "D:\\Learning\\ASP.Net\\ConsoleApp1\\ParameterTypes\\Program.cs",
+              "RelativeToolTip": "ParameterTypes\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:51:27.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

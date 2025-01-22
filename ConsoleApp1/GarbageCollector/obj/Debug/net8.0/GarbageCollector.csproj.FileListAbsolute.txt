@@ -1,0 +1,14 @@
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\bin\Debug\net8.0\GarbageCollector.exe
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\bin\Debug\net8.0\GarbageCollector.deps.json
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\bin\Debug\net8.0\GarbageCollector.runtimeconfig.json
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\bin\Debug\net8.0\GarbageCollector.dll
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\bin\Debug\net8.0\GarbageCollector.pdb
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\obj\Debug\net8.0\GarbageCollector.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\obj\Debug\net8.0\GarbageCollector.AssemblyInfoInputs.cache
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\obj\Debug\net8.0\GarbageCollector.AssemblyInfo.cs
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\obj\Debug\net8.0\GarbageCollector.csproj.CoreCompileInputs.cache
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\obj\Debug\net8.0\GarbageCollector.dll
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\obj\Debug\net8.0\refint\GarbageCollector.dll
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\obj\Debug\net8.0\GarbageCollector.pdb
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\obj\Debug\net8.0\GarbageCollector.genruntimeconfig.cache
+D:\Learning\ASP.Net\ConsoleApp1\GarbageCollector\obj\Debug\net8.0\ref\GarbageCollector.dll

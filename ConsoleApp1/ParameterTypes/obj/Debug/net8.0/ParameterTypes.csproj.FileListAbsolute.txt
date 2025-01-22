@@ -1,0 +1,14 @@
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\obj\Debug\net8.0\ParameterTypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\obj\Debug\net8.0\ParameterTypes.AssemblyInfoInputs.cache
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\obj\Debug\net8.0\ParameterTypes.AssemblyInfo.cs
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\obj\Debug\net8.0\ParameterTypes.csproj.CoreCompileInputs.cache
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\bin\Debug\net8.0\ParameterTypes.exe
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\bin\Debug\net8.0\ParameterTypes.deps.json
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\bin\Debug\net8.0\ParameterTypes.runtimeconfig.json
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\bin\Debug\net8.0\ParameterTypes.dll
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\bin\Debug\net8.0\ParameterTypes.pdb
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\obj\Debug\net8.0\ParameterTypes.dll
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\obj\Debug\net8.0\refint\ParameterTypes.dll
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\obj\Debug\net8.0\ParameterTypes.pdb
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\obj\Debug\net8.0\ParameterTypes.genruntimeconfig.cache
+D:\Learning\ASP.Net\ConsoleApp1\ParameterTypes\obj\Debug\net8.0\ref\ParameterTypes.dll

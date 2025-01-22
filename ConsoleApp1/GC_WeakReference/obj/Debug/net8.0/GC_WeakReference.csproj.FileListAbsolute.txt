@@ -1,0 +1,14 @@
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\bin\Debug\net8.0\GC_WeakReference.exe
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\bin\Debug\net8.0\GC_WeakReference.deps.json
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\bin\Debug\net8.0\GC_WeakReference.runtimeconfig.json
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\bin\Debug\net8.0\GC_WeakReference.dll
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\bin\Debug\net8.0\GC_WeakReference.pdb
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\obj\Debug\net8.0\GC_WeakReference.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\obj\Debug\net8.0\GC_WeakReference.AssemblyInfoInputs.cache
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\obj\Debug\net8.0\GC_WeakReference.AssemblyInfo.cs
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\obj\Debug\net8.0\GC_WeakReference.csproj.CoreCompileInputs.cache
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\obj\Debug\net8.0\GC_WeakReference.dll
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\obj\Debug\net8.0\refint\GC_WeakReference.dll
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\obj\Debug\net8.0\GC_WeakReference.pdb
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\obj\Debug\net8.0\GC_WeakReference.genruntimeconfig.cache
+D:\Learning\ASP.Net\ConsoleApp1\GC_WeakReference\obj\Debug\net8.0\ref\GC_WeakReference.dll
