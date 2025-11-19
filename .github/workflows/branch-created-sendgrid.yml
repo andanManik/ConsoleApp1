@@ -1,4 +1,4 @@
-name: Notify on Branch Creation (SendGrid)
+name: Notify on Branch Creation (SendGrid via Curl)
 
 # Trigger when a branch or tag is created
 on:
@@ -11,28 +11,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Optional checkout (not required for this workflow, but good practice)
+      # Step 1: Checkout repository (optional, good practice)
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Compose email body variables
-      - name: Set branch info
-        id: info
+      # Step 2: Send email via SendGrid API
+      - name: Send email via SendGrid API
         run: |
-          echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
-          echo "REPO_NAME=${GITHUB_REPOSITORY}" >> $GITHUB_OUTPUT
-          echo "CREATOR=${GITHUB_ACTOR}" >> $GITHUB_OUTPUT
-
-      # Step 3: Send email using SendGrid
-      - name: Send Email via SendGrid
-        uses: perfecteki/sendgrid-action@v1
-        with:
-          api-key: ${{ secrets.SENDGRID_API_KEY }}
-          from: ${{ secrets.EMAIL_FROM }}
-          to: ${{ secrets.EMAIL_TO }}
-          subject: "New Branch Created: ${{ steps.info.outputs.BRANCH_NAME }}"
-          content: |
-            Repository: ${{ steps.info.outputs.REPO_NAME }}
-            Branch: ${{ steps.info.outputs.BRANCH_NAME }}
-            Created by: ${{ steps.info.outputs.CREATOR }}
-            Link: https://github.com/${{ steps.info.outputs.REPO_NAME }}/tree/${{ steps.info.outputs.BRANCH_NAME }}
+          curl -s --request POST \
+            --url https://api.sendgrid.com/v3/mail/send \
+            --header "Authorization: Bearer ${{ secrets.SENDGRID_API_KEY }}" \
+            --header 'Content-Type: application/json' \
+            --data '{
+              "personalizations": [{"to": [{"email": "'"${{ secrets.EMAIL_TO }}"'"}]}],
+              "from": {"email": "'"${{ secrets.EMAIL_FROM }}"'"},
+              "subject": "New branch created: '"${GITHUB_REF#refs/heads/}"'",
+              "content": [{"type": "text/plain", "value": "Repository: '"${GITHUB_REPOSITORY}"'\nBranch: '"${GITHUB_REF#refs/heads/}"'\nCreated by: '"${GITHUB_ACTOR}"'\nLink: https://github.com/'"${GITHUB_REPOSITORY}"'/tree/'"${GITHUB_REF#refs/heads/}"'"}]
+            }'
