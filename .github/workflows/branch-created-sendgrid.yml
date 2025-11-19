@@ -1,0 +1,31 @@
+name: Notify on branch creation (SendGrid)
+
+on:
+  create: {}
+
+jobs:
+  branch-created:
+    # Only run when a branch is created (not tag)
+    if: ${{ github.event.ref_type == 'branch' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Compose branch info
+        id: info
+        run: |
+          echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
+          echo "REPO=${GITHUB_REPOSITORY}" >> $GITHUB_OUTPUT
+          echo "CREATOR=${{ github.actor }}" >> $GITHUB_OUTPUT
+
+      - name: Send email via SendGrid
+        uses: peter-evans/sendgrid-action@v1
+        with:
+          api-key: ${{ secrets.SENDGRID_API_KEY }}
+          from: ${{ secrets.EMAIL_FROM }}
+          to: ${{ secrets.EMAIL_TO }}
+          subject: "New branch created: ${{ github.event.ref }}"
+          body: |
+            Repository: ${{ github.repository }}
+            Branch: ${{ github.event.ref }}
+            Created by: ${{ github.actor }}
+            Link: https://github.com/${{ github.repository }}/tree/${{ github.event.ref }}
